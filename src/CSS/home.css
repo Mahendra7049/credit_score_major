@@ -1,0 +1,370 @@
+
+.slider{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin-top: 0;
+    /* border: 1px solid; */
+    padding-left: 3rem;
+  }
+  .slider-content{
+    width: 55%;
+  }
+  .lapi-img>.lapi-img{
+    margin: 0 auto;
+    width: 100%;
+  }
+  .slider h1{
+    margin: 4% 0; ;
+    font-size: x-large;
+    font-weight: bold;
+    width: 60%;
+    color: #001C61;
+  }
+  
+  .slider button{
+    margin: 0 1rem 5px 0;
+    padding: 10px 20px;
+    border-radius: 22px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    background-color: #0094e9cd;
+  
+  }
+  .slider p{
+    margin: .7rem 0 2px 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #001C61 !important;
+  }
+  
+  .text-line{
+    /* border: 2px solid; */
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .text-line>p{
+    color: #fff;
+    width: fit-content;
+    margin: 0 auto;
+    font-size: xx-large;
+  }
+
+  .cibil-credit-info{
+    /* border: 3px dotted red; */
+    margin-top: 3rem;
+    color: #001C61;
+  }
+
+  .about-credits{
+    /* border: 3px solid green; */
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 8%;
+    margin: auto;
+  }
+
+  .credit-text{
+    margin: 4% 1%;
+    font-size: 15px;
+  }
+
+
+  .credit-text>h2{
+    font-weight: 500;
+    font-size: larger;
+  }
+
+  .credit-text>p{
+    font-size: 15px;
+    color: #333;
+  }
+
+  .credit-text hr{
+    height:5px;
+    background-color: #32A9ED;
+    width: 15%;
+    margin: 3% 0%;
+  }
+
+  .cibil-credit-info>p{
+    /* border: 2px solid red; */
+    text-align: center;
+    margin: 3% 0%;
+  }
+
+  .cibil-credit-info>button{
+    /* border: 2px solid orangered; */
+    margin: auto;
+    margin-bottom: 3%;
+    display: block;
+    padding: 8px 24px;
+    border-radius: 22px;
+    color: #ffff;
+    background-color: #32A9ED;
+    font-weight: 500;
+  }
+
+  .help-center{
+    background-color: rgb(246, 246, 244);
+    text-align: center;
+    /* border: 2px solid; */
+  }
+
+  .help-heading>h2{
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 3rem;
+    margin-top: 2rem;
+    color: #001C61;
+  }
+  
+  .help-heading>p{
+    font-size: larger;
+    color: #001C61 !important;
+    margin-top: -2rem;
+    margin-bottom: 3rem;
+  }
+
+  .help-card{
+    /* border: 3px solid orangered; */
+    display: flex;
+    width: 80%;
+    margin: auto;
+    gap: 5%;
+  }
+  
+  .card{
+    background: #ffffff59;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 3%;
+    padding: 2%;
+  }
+  .card>img{
+    display: block;
+    margin: 1.5rem auto;
+    margin-bottom: 5%;
+  }
+
+  .card>h3{
+    font-size: larger;
+    font-weight: 500;
+  }
+
+  .card>p{
+    font-size: 15px;
+    margin-top: 1rem;
+    text-align: left;
+    width: fit-content;
+    margin: inherit auto;
+  }
+
+  .card>h2{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 4rem;
+    margin-bottom:0%;
+    color: #001C61;
+  }
+
+  .card>h2:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  .card:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  }
+
+  .help-center>p{
+    font-size: larger;
+    margin: 2rem 0;
+    padding: 3rem 0;
+  }
+
+  .monitor{
+    /* border: 3px solid blue; */
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+    padding: 2rem;
+    margin: 4% auto;
+    background-color: rgb(246, 246, 244);
+    padding: 5% 2% 7% 2%;
+  }
+
+  .monitor-img{
+    margin-left: 2rem;
+    width: 300px;
+  }
+
+  .monitor-text{
+    /* border: 2px solid green; */
+    width: 65%;
+  }
+
+  .monitor-text>h2{
+    font-size: xx-large;
+    font-weight: bold;
+  }
+
+  .monitor-text>p{
+    font-size: larger;
+    margin: 2% 0% ;
+  
+  }
+  .monitor-text>h3{
+    font-size: larger;
+    margin: 2% 0% ;
+  }
+  .monitor-text>button{
+    /* border: 2px solid; */
+    background-color: #32A9ED;
+    color: #fff;
+    border-radius: 22px;
+    font-weight: 500;
+    padding: 7px 24px;
+    font-size: 15px;
+    margin: 2% 0%;
+  }
+
+  .app{
+    padding: 5% 0%;
+    background-color: rgb(246, 246, 244);
+
+  }
+  .app-link{
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+  }
+  
+  .app-link>h2{
+    color: #001C61;
+    font-size: x-large;
+    font-weight: 500;
+  }
+  .pic{
+    width: 100%;
+  }
+  .pic>img{
+    width: 100%;
+  }
+
+  .bottom-text{
+    /* border: 3px solid brown; */
+    text-align: center;
+    padding: 1%;
+  }
+
+  .bottom-text>h2{
+    font-size: x-large;
+    font-weight: 500;
+    color: #001C61;
+  }
+  .bottom-text>button{
+    /* border: 2px solid; */
+    background-color: #32A9ED;
+    color: #fff;
+    border-radius: 22px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 9px 24px;
+    margin: 2% 0%;
+  }
+
+
+
+
+  /* media query */
+
+  @media screen and (max-width: 700px) {
+    .slider{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .slider-content{
+      width: 100%;
+    }
+    .slider h1{
+      width: 80%;
+    }
+    .slider > div.lapi-img > img{
+      /* margin-left:2px;  */
+      margin-left: -2.5rem;
+    }
+    .text-line>p{
+      /* font-size: xx-large; */
+      font-size: x-large;
+    }
+    .about-credits{
+      display: flex;
+      flex-direction: column;
+      /* width: 95%; */
+      width: 90%;
+    }
+    .help-card{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+    }
+    .card{
+      width: 70%;
+      /* margin: 5%; */
+      margin: 2%;
+    }
+    .help-center>p{
+      margin: 3% 7%;
+    }
+    .monitor{
+      display: flex;
+      flex-direction: column;
+    }
+    .monitor-img{
+      width: 89%;
+      margin: auto;
+      margin-bottom: 5%;
+    }
+    .monitor-text{
+      margin: auto;
+      width: 90%;
+    }
+    .monitor-text>h2{
+    font-size: x-large;
+    }
+    .monitor-text>button{
+      display: block;
+      margin: 9% auto;
+    }
+    .app-link{
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+    }
+    .app-link>img{
+      display: block;
+      margin: 5% auto;
+      width: 40%;
+    }
+
+    #banner{
+      /* border: 2px solid; */
+      height: 300px;
+    }
+    #banner-img{
+      height: 250px;
+      width: 100%;
+    }
+    .arrow-btn{
+      visibility: hidden;
+    }
+  }

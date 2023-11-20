@@ -1,0 +1,97 @@
+*{
+    scroll-behavior: auto;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.logo{
+    border-right: 1px solid #ccc;
+    padding: 0 .5rem;
+    padding-right: 1rem;
+    font-size: 18px;
+    color: #0080f1;
+    margin: auto 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn{
+    text-align: center;
+    align-self: center;
+    padding: 11px 15px;
+    font-weight: 300;
+    font-size: 14px;
+    color: #fff;
+    margin: 0 !important;
+    background-color: #32A9ED;
+}
+
+.login-btn{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.pages{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+.pages p{
+    padding: 12px 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(6, 84, 87);
+}
+
+.pages p:hover{
+    cursor: pointer;
+}
+
+#root div > div.pages > a.blue > p{
+    color: #32A9ED !important;
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+    .logo{
+        font-size: 15px;
+    }
+    .pages{
+        gap: 10px;
+    }
+    .pages>a>p{
+        font-size: 13px;
+    }
+    .login-btn{
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+}
+@media screen and (max-width: 600px) {
+    .logo{
+        font-size: 12px;
+    }
+    .pages{
+        gap: 10px;
+    }
+    .pages>a>p{
+        font-size: 12px;
+    }
+    .login-btn{
+        width: 40px;
+        font-weight: 400;
+    }
+    .pages > a:nth-child(5) > p{
+        display: none;
+    }
+}

@@ -1,0 +1,105 @@
+.about-top{
+    display: flex;
+    background-color: rgb(246, 246, 244);
+    padding: .5rem;
+}
+.about-text{
+    width: 50%;
+    padding: 3%;
+}
+.img{
+    width: 50%;
+}
+.img>img{
+    width: 100%;
+}
+
+.about-text>h3{
+    font-size: large;
+    font-weight: 500;
+    margin-bottom: 3%;
+}
+.about-text>h2{
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 3%;
+
+}
+.about-text>p{
+    font-size: medium;
+    font-weight: 400;
+}
+.about-text>button{
+    margin: 5% 0% 2% 0%;
+    padding: 7px 20px;
+    border-radius: 22px;
+    color: #fff;
+    background-color: #32A9ED;
+}
+
+.about-middle{
+    display: flex;
+}
+.middle-left{
+    width: 35%;
+    border-right: 1px solid rgb(183, 179, 179);
+}
+.middle-right{
+    width: 65%;
+    padding: 2%;
+    font-size: 14px;
+}
+.middle-left>h2{
+    font-size: xx-large;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 8%;
+    color: rgb(6, 84, 87);
+    text-decoration: underline;
+}
+.middle-left>p{
+    margin: 1% 8%;
+    font-size: 14px;
+}
+.middle-left>p:hover{
+    cursor: pointer;
+    color: rgb(7, 136, 140);
+}
+
+.middle-right>p{
+    padding: 1rem;
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 2;
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .about-top{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .img{
+        width: 100%;
+    }
+    .about-text{
+        width: 100%;
+        text-align: center;
+        margin-top: 2%;
+    }
+    .about-middle{
+        display: flex;
+        flex-direction: column;
+    }
+    .middle-left{
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #CCCCCC;
+        margin-bottom:2% ;
+    }
+    .middle-right{
+        width: 100%;
+    }
+}
